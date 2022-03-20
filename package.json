@@ -3,12 +3,12 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "nx serve",
-    "start2": "node dist/apps/api/main.js",
-    "build": "nx build",
-    "build2": "yarn nx run-many --target=build --projects=blfs,api --parallel=true",
+    "start2": "nx serve",
+    "start": "node dist/apps/api/main.js",
+    "build2": "nx build",
+    "build": "yarn nx run-many --target=build --projects=blfs,api --parallel=true",
     "test": "nx test",
-    "rrun": "nx run-many --target=serve --projects=blfs,api --parallel=true"
+    "dev": "nx run-many --target=serve --projects=blfs,api --parallel=true"
   },
   "private": true,
   "dependencies": {
