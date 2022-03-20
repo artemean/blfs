@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "projects": {
+    "api": "apps/api",
+    "api-interfaces": "libs/api-interfaces",
+    "blfs": "apps/blfs",
+    "blfs-e2e": "apps/blfs-e2e"
+  }
+}
