@@ -4,8 +4,11 @@
   "license": "MIT",
   "scripts": {
     "start": "nx serve",
+    "start2": "node dist/apps/api/main.js",
     "build": "nx build",
-    "test": "nx test"
+    "build2": "yarn nx run-many --target=build --projects=blfs,api --parallel=true",
+    "test": "nx test",
+    "rrun": "nx run-many --target=serve --projects=blfs,api --parallel=true"
   },
   "private": true,
   "dependencies": {
